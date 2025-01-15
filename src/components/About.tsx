@@ -8,11 +8,11 @@ function About() {
         <Image src={imageAbout} alt="hero" width={321} height={232} className="lg:-[495px] h-[320px] w-auto mx-auto"
         />
       </div>
-      <div className=" flex flex-col gap-[16px]    lg:py-20">
-        <h2 className="text-[#115B23] text-[30px] text-center font-bold  lg:text-start ">
+      <div className=" flex flex-col gap-[16px]    lg:py-20 h-full">
+        <h2 className="text-[#115B23] text-[30px] text-center text-pretty font-bold  lg:text-start  ">
           Acercamos el gobierno a los ciudadanos
         </h2>
-        <p className="text-[#717171] text-center text-[16px] lg:[20px]  lg:text-start lg:w-[601px]">
+        <p className="text-[#717171] text-center text-[17px] text-pretty lg:[20px]  lg:text-start lg:w-[601px]">
           No más días perdidos en largas filas ni tener que regresar porque
           olvidaste un documento. Gestionamos tus trámites desde la solicitud
           hasta la entrega de licencias y permisos, te ayudamos con las deudas o
