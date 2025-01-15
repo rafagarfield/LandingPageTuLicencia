@@ -10,7 +10,7 @@ const Hero = () => {
             <h1 className="text-[#11793D] lg:text-[44px] text-[30px] font-bold lg:leading-[42px] leading-[28px]">
               Olvídate de las filas y esperas
             </h1>
-            <p className="text-[#115B23] lg:text-[20px] text-[18px]">
+            <p className="text-[#115B23] lg:text-[20px] text-[18px] text-pretty">
               Realiza el trámite para renovar tu licencia, realizar un traspaso de
               vehículo y mucho más desde la comodidad de tu hogar.
             </p>
