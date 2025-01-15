@@ -4,10 +4,13 @@ import imageAbout from "../../public/Images/about.png";
 function About() {
   return (
     <div className="m-[30px]   lg:flex lg:gap-32 lg:mx-auto ">
-      <div className="flex justify-center ">
-        <Image src={imageAbout} alt="hero" width={321} height={232} className="lg:-[495px] h-[320px] w-auto mx-auto"
+
+      <div className="flex lg:justify-end lg:mt-[.5rem] mt-[0rem] lg:items-center items-center justify-center lg:h-full h-full ">
+        <Image src={imageAbout} alt="hero" width={321} height={232} className="lg:!ml-auto !ml-[0rem] lg:w-[90%] w-[88%]"
         />
       </div>
+     
+
       <div className=" flex flex-col gap-[16px]    lg:py-20 h-full">
         <h2 className="text-[#115B23] text-[30px] text-center text-pretty font-bold  lg:text-start  ">
           Acercamos el gobierno a los ciudadanos
