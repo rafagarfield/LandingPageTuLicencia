@@ -2,7 +2,7 @@ import Image from "next/image";
 import hero from "../..//public/Images/header.png"
 const Hero = () => {
   return (
-    <section className="hero-main z-10 lg:h-[80vh] h-auto my-auto overflow-hidden bg-[#C6FFD4]  rounded-b-[30px]  relative top-[70px] md:top-[70px] lg:top-[75px] ">
+    <section className="hero-main z-10 lg:h-[80vh] h-auto my-auto overflow-hidden bg-[#C6FFD4]  rounded-b-[30px]  ">
       <div className="container lg:max-w-screen-xl max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-20 py-8 h-full">
           {/* Texto */}
@@ -14,7 +14,7 @@ const Hero = () => {
               Realiza el trámite para renovar tu licencia, realizar un traspaso de
               vehículo y mucho más desde la comodidad de tu hogar.
             </p>
-            <div className="relative">
+            <div className="relative z-10">
               <a
                 href="#services"
                 className="button lg:[#5AAB30] lg:text-white border border-solid lg:border-[#5AAB30] lg:text-[20px] text-[18px] font-[700] mx-auto lg:mx-0 bg-[#5AAB30] border-[#5AAB30] text-white
