@@ -4,9 +4,8 @@ import imageAbout from "../../public/Images/about.png";
 function About() {
   return (
     <div className="m-[30px]   lg:flex lg:gap-32 lg:mx-auto ">
-
-      <div className="flex lg:justify-end lg:mt-[.5rem] mt-[0rem] lg:items-center items-center justify-center lg:h-full h-full ">
-        <Image src={imageAbout} alt="hero" width={321} height={232} className="lg:!ml-auto !ml-[0rem] lg:w-[90%] w-[88%]"
+      <div className="flex justify-center ">
+        <Image src={imageAbout} alt="hero" width={321} height={232} className="lg:-[495px] h-[320px] w-auto mx-auto"
         />
       </div>
      
