@@ -3,7 +3,7 @@ import Navbar from '@/components/NavBar'
 import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Features from '@/components/Features'
-
+import Procedure from '@/components/Procedure'
 function page() {
   return (
     <div>
@@ -12,6 +12,7 @@ function page() {
       <Hero />
       <About />
       <Features />
+      <Procedure />
       </div>
     </div>
   )
