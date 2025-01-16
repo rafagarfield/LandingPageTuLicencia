@@ -1,0 +1,18 @@
+.waveContainer {
+  @media (min-width: 500px) and (max-width: 800px) {
+    background-position: 0px 0px;
+  }
+}
+
+.waveContainerMobile {
+  @media (min-width: 0px) and (max-width: 470px) {
+    background-position: 0px 0px;
+  }
+}
+
+.carIcon {
+  position: absolute;
+  top: -30px;
+  left: 85px;
+  transform: rotate(2deg);
+}
