@@ -8,7 +8,7 @@ function Procedure() {
         <h2 className='text-[#11793D] text-[24px] font-bold '  >¿Estás Listo?</h2>
         <p className='text-[#717171] text-[20px]'>Selecciona el servicio que necesitas</p>
       </div>
-      <div className='flex flex-row gap-2 justify-center items-center p-2'>
+      <div className='flex flex-col gap-2 justify-center items-center p-2'>
         {/* Trámites de personas */}
         <div className='flex flex-col justify-center items-center'>
           <div >

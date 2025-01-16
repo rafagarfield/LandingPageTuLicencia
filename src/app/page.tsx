@@ -5,6 +5,7 @@ import About from '@/components/About'
 import Features from '@/components/Features'
 import Procedure from '@/components/Procedure'
 import Question from '@/components/Question'
+import Panel from '@/components/Panel'
 function page() {
   return (
     <div>
@@ -15,6 +16,7 @@ function page() {
       <Features />
       <Procedure />
       <Question />
+      <Panel />
       </div>
     </div>
   )
