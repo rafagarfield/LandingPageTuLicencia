@@ -4,6 +4,7 @@ import Hero from '@/components/Hero'
 import About from '@/components/About'
 import Features from '@/components/Features'
 import Procedure from '@/components/Procedure'
+import Question from '@/components/Question'
 function page() {
   return (
     <div>
@@ -13,6 +14,7 @@ function page() {
       <About />
       <Features />
       <Procedure />
+      <Question />
       </div>
     </div>
   )

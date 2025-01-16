@@ -3,7 +3,7 @@ import React from 'react';
 
 function Procedure() {
   return (
-    <div className='mt-16'>
+    <div className='mb-10'>
       <div className='flex flex-col justify-center items-center gap-4 '>
         <h2 className='text-[#11793D] text-[24px] font-bold '  >¿Estás Listo?</h2>
         <p className='text-[#717171] text-[20px]'>Selecciona el servicio que necesitas</p>
