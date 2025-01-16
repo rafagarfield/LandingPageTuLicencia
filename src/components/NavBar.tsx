@@ -2,7 +2,7 @@
 import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import logo from "../../public/Images/logo.png";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -16,7 +16,7 @@ const Navbar = () => {
       <div className="container lg:max-w-screen-xl max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-between py-4">
           <Link href="/" className="font-bold text-2xl lg:text-3xl degradado-texto">
-            <Image src={logo} alt="Logo" width={183} height={70} />
+            <Image src="/icon/logo.svg" alt="Logo" width={120} height={50} />
           </Link>
           <button
             onClick={toggleMenu}
