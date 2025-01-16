@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer components {
+    .bg-custom-position-mobile {
+      background-position: -66px 0px;
+    }
+    /* .bg-custom-position-md {
+        background-position: 0px 0px;
+      } */
+    .bg-custom-position-lg {
+        background-position: 0px 0px;
+      }
+  }
