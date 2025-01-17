@@ -3,7 +3,7 @@ import React from "react";
 
 function Panel() {
   return (
-    <div className="bg-[#11793D] mx-[24px] px-4 py-8 rounded-[36px] flex flex-col justify-center items-center gap-6 mb-10 lg:grid lg:grid-cols-2 lg:p-20 ">
+    <div className="bg-[#11793D] mx-[24px] lg:mx-20 px-4 py-8 rounded-[36px] flex flex-col justify-center items-center gap-6 mb-10 lg:grid lg:grid-cols-2 lg:p-20 ">
       <div className="flex flex-col justify-center items-center gap-8 lg:items-start">
         <h2 className="text-[24px] font-bold text-[#ffffff] text-center">
           Una nueva manera de realizar tus trámites
