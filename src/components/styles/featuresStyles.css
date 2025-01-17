@@ -2,6 +2,10 @@
   @media (min-width: 500px) and (max-width: 800px) {
     background-position: 0px 0px;
   }
+
+  @media (width >= 1366px) {
+    height: 1065px;
+  }
 }
 
 .waveContainerMobile {

@@ -3,7 +3,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="m-[30px]   lg:flex lg:gap-32 lg:mx-auto ">
+    <div className="m-[30px]   lg:flex lg:gap-32 lg:mx-[30px] ">
       {/* <div className="flex justify-center ">
         <Image
           src="/icon/about.svg"
@@ -12,14 +12,14 @@ function About() {
         />
       </div> */}
 
-      <div className="flex justify-center">
+      <div className="flex justify-center w-full lg:w-max">
         <Image
           src="/icon/about.svg"
           alt="hero"
           width={0} // Esto es obligatorio pero se ignorará al usar style
           height={0} // Esto también
           style={{ width: "100%", height: "auto" }} // Aquí defines 100% del ancho y alto automático
-          className="object-cover"
+          className="object-cover lg:object-fill "
         />
       </div>
 
