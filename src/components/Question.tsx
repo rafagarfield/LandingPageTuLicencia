@@ -10,6 +10,10 @@ function Question() {
         {/* <button className='px-10 py-2 text-[16px] font-medium rounded-[28px] text-[#115B23] border border-[#115B23]'>Tiempo</button>
         <button className='px-10 py-2 text-[16px] font-medium rounded-[28px] text-[#115B23] border border-[#115B23]'>Costos</button> */}
       </div>
+
+      <div>
+        
+      </div>
     </div>
   )
 }

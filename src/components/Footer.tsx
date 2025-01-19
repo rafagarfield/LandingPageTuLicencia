@@ -102,11 +102,11 @@ function Footer() {
       </div>
     </div>
 
-    <div className="text-[#717171] text-[14px] flex flex-col gap-2 mt-5 lg:flex-row lg:justify-between">
+    <div className="text-[#717171] text-[14px] flex flex-col gap-2 mt-5 lg:flex-row lg:justify-between lg:pr-30">
         <p >
           © 2024 Todos los derechos reservados.
         </p>
-        <p>Diseño y Desarrollo por Online Healt</p>
+        <p >Diseño y Desarrollo por Online Healt</p>
   
     </div>
     </div>

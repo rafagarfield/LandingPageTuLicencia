@@ -7,6 +7,7 @@ import Procedure from '@/components/Procedure'
 import Question from '@/components/Question'
 import Panel from '@/components/Panel'
 import Footer from '@/components/Footer'
+import FAQSection from '@/components/FAQ'
 function page() {
   return (
     <div>
@@ -16,7 +17,7 @@ function page() {
       <About />
       <Features />
       <Procedure />
-      <Question />
+      <FAQSection/>
       <Panel />
       <Footer />
       </div>
