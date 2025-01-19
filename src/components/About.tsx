@@ -3,7 +3,7 @@ import React from "react";
 
 function About() {
   return (
-    <div className="m-[30px]   lg:flex lg:gap-32 lg:mx-[30px] ">
+    <div className="mx-10 mt-10 mb-20   lg:flex lg:gap-32   ">
       {/* <div className="flex justify-center ">
         <Image
           src="/icon/about.svg"

@@ -8,6 +8,7 @@ import Question from '@/components/Question'
 import Panel from '@/components/Panel'
 import Footer from '@/components/Footer'
 import FAQSection from '@/components/FAQ'
+import Copyright from '@/components/Copyright'
 function page() {
   return (
     <div>
@@ -20,7 +21,8 @@ function page() {
       <FAQSection/>
       <Panel />
       <Footer />
-      </div>
+      <Copyright />
+      </div> 
     </div>
   )
 }

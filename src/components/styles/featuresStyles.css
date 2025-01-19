@@ -22,8 +22,91 @@
 }
 
 .carIcon {
+  @media (min-width: 300px) and (max-width: 450px){
   position: absolute;
-  top: -30px;
-  left: 85px;
-  transform: rotate(2deg);
+  top: -5%;
+  left: 71%;
+  transform: rotate(1deg);
+  width: 100px; 
+  height: 100px;
+  }
+
+  
+}
+.carIconFirst{
+   @media (min-width: 450px) and (max-width: 470px){
+      position: absolute;
+      top: -8%;
+      left: 70%;
+      transform: rotate(1deg);
+      width: 120px; 
+      height: 120px;
+  }
+}
+
+.carIconSecond{
+  @media (min-width: 471px) and (max-width: 600px){
+     position: absolute;
+     top: -10%;
+     left: 70%;
+     transform: rotate(1deg);
+     width: 120px; 
+     height: 120px;
+ }
+}
+
+.carIconThird{
+  @media (min-width: 600px) and (max-width: 700px){
+    position: absolute;
+    top: -12%;
+    left: 70%;
+    transform: rotate(-3deg);
+    width: 120px; 
+    height: 120px;
+}
+}
+
+.carIconFourth{
+  @media (min-width: 700px) and (max-width: 800px){
+    position: absolute;
+    top: -8%;
+    left: 75%;
+    transform: rotate(-3deg);
+    width: 130px; 
+    height: 130px;
+}
+}
+
+.carIconFifth{
+  @media (min-width: 800px) and (max-width: 1000px){
+    position: absolute;
+    top: -11%;
+    left: 75%;
+    transform: rotate(-3deg);
+    width: 140px; 
+    height: 140px;
+}
+}
+
+.carIconSixth{
+  @media (width >= 1000px) {
+    position: absolute;
+    top: -11%;
+    left: 78%;
+    transform: rotate(-2deg);
+    width: 170px; 
+    height: 170px;
+}
+}
+ 
+
+.CardFeatureRight{
+  @media (min-width: 1024px) and (max-width: 1200px) {
+    right: 2.5rem;
+  }
+}
+.CardFeatureLeft{
+    @media (min-width: 1024px) and (max-width: 1200px) {
+      left: 2.5rem;
+    }
 }

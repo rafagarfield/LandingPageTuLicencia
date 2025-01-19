@@ -17,7 +17,7 @@ function Steps() {
         <div className="relative  flex justify-center items-center gap-6 p-10  bg-[#509920]  rounded-[43px] w-[80%]  h-[380px] ">
         <h2 className="text-[#fff] text-[24px] font-bold">Cónoce como funciona</h2>
 
-      <div className=" top-[-100px] left-[6.5rem] absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px] w-[361px]">
+      <div className=" top-[-100px] left-[6.5rem] CardFeatureLeft absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px] w-[361px]">
         <div className="flex flex-row gap-6  items-center">
           <h3 className="text-[24px]  text-[#115B23] font-bold">
             Selecciona el trámite
@@ -30,7 +30,7 @@ function Steps() {
         </p>
       </div>
 
-      <div className=" top-[-100px] right-[6.5rem] absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px]  w-[361px]">
+      <div className=" top-[-100px] right-[6.5rem] CardFeatureRight absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px]  w-[361px]">
         <div className="flex flex-row gap-6  items-center">
           <h3 className="text-[24px]  text-[#115B23] font-bold">
             Selecciona el trámite
@@ -43,7 +43,7 @@ function Steps() {
         </p>
       </div>
 
-      <div className="bottom-[-100px] left-[6.5rem] absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px]  w-[361px]">
+      <div className="bottom-[-100px] left-[6.5rem] CardFeatureLeft absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px]  w-[361px]">
         <div className="flex flex-row gap-6  items-center">
           <h3 className="text-[24px]  text-[#115B23] font-bold">
             Selecciona el trámite
@@ -56,7 +56,7 @@ function Steps() {
         </p>
       </div>
 
-      <div className="bottom-[-100px] right-[6.5rem] absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px] w-[361px]">
+      <div className="bottom-[-100px] right-[6.5rem] CardFeatureRight absolute flex flex-col gap-2 px-8 py-6 bg-white  rounded-[18px] w-[361px]">
         <div className="flex flex-row gap-6  items-center">
           <h3 className="text-[24px]  text-[#115B23] font-bold">
             Selecciona el trámite
