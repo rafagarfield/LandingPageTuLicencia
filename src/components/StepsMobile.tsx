@@ -16,7 +16,7 @@ function StepsMobile() {
           />
         </div>
 
-        <div className="  flex gap-5 flex-col bg-[#509920] mx-5 border p-5 border-[#ffffff] rounded-[14px] ">
+        <div className="  flex gap-5 flex-col md:mx-20 bg-[#509920] mx-5 border p-5 border-[#ffffff] rounded-[14px] ">
           <h2 className="text-[20px] font-bold leading-8 text-white text-center">
             Conoce cómo funciona
           </h2>

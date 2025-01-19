@@ -6,6 +6,13 @@
   @media (width >= 1366px) {
     height: 1065px;
   }
+
+  /* @media (width >= 700px  ) {
+    height: 714px;
+  } */
+  @media (min-width: 700px) and (max-width: 1000px){
+    height: 714px;
+  }
 }
 
 .waveContainerMobile {
