@@ -24,7 +24,7 @@ function About() {
       </div>
 
       <div className=" flex flex-col gap-[16px]    lg:py-20 h-full">
-        <h2 className="text-[#115B23] text-[24px] text-center text-pretty font-bold  lg:text-start  ">
+        <h2 className="text-[#115B23] text-[30px]  text-center text-pretty font-bold  lg:text-start  ">
           Acercamos el gobierno a los ciudadanos
         </h2>
         <p className="text-[#717171] text-center text-[17px] text-pretty lg:[20px]  lg:text-start lg:w-[601px]">
