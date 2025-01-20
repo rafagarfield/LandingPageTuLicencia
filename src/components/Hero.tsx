@@ -1,18 +1,17 @@
 import Image from "next/image";
-import hero from "../..//public/Images/header.png"
+import hero from "../..//public/Images/header.png";
 const Hero = () => {
   return (
     <section className="hero-main z-10 lg:h-[80vh] h-auto my-auto overflow-hidden bg-[#C6FFD4]  rounded-b-[30px]  ">
       <div className="container lg:max-w-screen-xl max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8 h-full">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-2 lg:gap-20 py-8 h-full">
-          {/* Texto */}
           <div className="flex flex-col gap-8 justify-center text-center lg:text-start order-2 lg:order-1">
             <h1 className="text-[#11793D] lg:text-[44px] text-[30px] font-bold lg:leading-[42px] leading-[28px]">
               Olvídate de las filas y esperas
             </h1>
             <p className="text-[#115B23] lg:text-[20px] text-[18px] text-pretty">
-              Realiza el trámite para renovar tu licencia, realizar un traspaso de
-              vehículo y mucho más desde la comodidad de tu hogar.
+              Realiza el trámite para renovar tu licencia, realizar un traspaso
+              de vehículo y mucho más desde la comodidad de tu hogar.
             </p>
             <div className="relative z-10">
               <a
@@ -25,7 +24,6 @@ const Hero = () => {
             </div>
           </div>
 
-          {/* Imagen */}
           <div className=" flex lg:justify-end lg:mt-[.5rem] mt-[0rem] lg:items-center items-center justify-center lg:h-full h-full order-1 lg:order-2">
             <Image
               src={hero}

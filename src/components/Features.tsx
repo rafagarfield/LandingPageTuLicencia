@@ -1,5 +1,5 @@
 import Image from "next/image";
-import "./styles/featuresStyles.css"
+import "./styles/featuresStyles.css";
 import Steps from "./Steps";
 import StepsMobile from "./StepsMobile";
 const Features = () => {
@@ -12,7 +12,6 @@ const Features = () => {
         height={150}
         className="carIcon carIconFirst carIconSecond carIconThird carIconFourth carIconFifth carIconSixth  "
       />
-      
       <StepsMobile />
       <Steps />
     </div>

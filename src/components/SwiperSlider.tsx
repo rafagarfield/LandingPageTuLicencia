@@ -22,7 +22,6 @@ const SwiperSlider: FC = () => {
         pagination={{ clickable: true }}
         className="swiper"
       >
-        {/* Slides */}
         <SwiperSlide>
           <Card />
         </SwiperSlide>
@@ -36,10 +35,6 @@ const SwiperSlider: FC = () => {
           <Card />
         </SwiperSlide>
       </Swiper>
-
-      {/* Navigation Buttons
-      <div className="swiper-button-prev text-black"></div>
-      <div className="swiper-button-next text-black"></div> */}
     </div>
   );
 };

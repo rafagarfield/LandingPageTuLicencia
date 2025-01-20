@@ -1,8 +1,10 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 
 function FAQSection() {
-  const [activeCategory, setActiveCategory] = useState<"general" | "proceso" | "tiempo" | "costos">("general");
+  const [activeCategory, setActiveCategory] = useState<
+    "general" | "proceso" | "tiempo" | "costos"
+  >("general");
   const [openDetail, setOpenDetail] = useState<number | null>(null);
 
   const categories = [
@@ -12,7 +14,10 @@ function FAQSection() {
     { id: "costos", label: "Costos" },
   ];
 
-  const faqs: Record<"general" | "proceso" | "tiempo" | "costos", { question: string; answer: string }[]> = {
+  const faqs: Record<
+    "general" | "proceso" | "tiempo" | "costos",
+    { question: string; answer: string }[]
+  > = {
     general: [
       {
         question: "¿En cuánto tiempo recibo mi licencia?",
@@ -33,8 +38,7 @@ function FAQSection() {
         question: "¿Puedo recibir el examen médico “online”?",
         answer:
           "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatu.",
-      }
-
+      },
     ],
     proceso: [
       {
@@ -53,7 +57,8 @@ function FAQSection() {
     costos: [
       {
         question: "¿Cuáles son los costos del trámite?",
-        answer: "El costo varía según el tipo de licencia. Consulte más detalles en nuestra web.",
+        answer:
+          "El costo varía según el tipo de licencia. Consulte más detalles en nuestra web.",
       },
     ],
   };
@@ -64,7 +69,9 @@ function FAQSection() {
 
   return (
     <div className="max-w-4xl mx-auto my-8 p-4 ">
-      <h2 className='text-[24px] font-bold text-[#11793D] text-center mb-8'>Preguntas frecuentes</h2>
+      <h2 className="text-[24px] font-bold text-[#11793D] text-center mb-8">
+        Preguntas frecuentes
+      </h2>
       {/* Categorías */}
 
       {/* <div className="flex gap-4 justify-center mb-6 ">
@@ -86,10 +93,13 @@ function FAQSection() {
 
       <div className=" gap-4 justify-center mb-6 hidden  lg:flex md:flex  ">
         {categories.map((category) => (
-          
           <button
             key={category.id}
-            onClick={() => setActiveCategory(category.id as "general" | "proceso" | "tiempo" | "costos")}
+            onClick={() =>
+              setActiveCategory(
+                category.id as "general" | "proceso" | "tiempo" | "costos"
+              )
+            }
             className={`px-10 py-2 text-[16px] font-medium rounded-[28px]  ${
               activeCategory === category.id
                 ? "bg-[#115B23] text-white"
@@ -128,9 +138,7 @@ function FAQSection() {
               </svg>
             </div>
             {openDetail === index && (
-              <div className="p-4 text-gray-600  ">
-                {faq.answer}
-              </div>
+              <div className="p-4 text-gray-600  ">{faq.answer}</div>
             )}
           </div>
         ))}

@@ -4,51 +4,50 @@ import React from "react";
 function Footer() {
   return (
     <div className="mx-6 lg:p-6">
-        <div className="lg:flex lg:flex-row lg:gap-8 md:flex md:flex-col md:gap-8 ">
-      <div className="flex flex-col gap-4 mb-3 md:justify-start md:items-start lg:justify-start lg:items-start lg:w-[20%]">
-        <div>
-          <Image
-            src="/icon/logoFooter.svg"
-            alt="logo footer"
-            width={150}
-            height={150}
-          />
-        </div>
-        <div className="flex flex-col gap-2">
-          <p className="text-[14px] font-semibold text-[#717171]">
-            Olvídate de las filas y esperas
-          </p>
-          <p className="text-[14px]  text-[#717171]">
-            Dirección: 1452 Av. Manuel Fernández Juncos, San Juan, Puerto Rico,
-            00909
-          </p>
-        </div>
-
-        <div>
-          <div className="flex flex-row gap-4 ">
+      <div className="lg:flex lg:flex-row lg:gap-8 md:flex md:flex-col md:gap-8 ">
+        <div className="flex flex-col gap-4 mb-3 md:justify-start md:items-start lg:justify-start lg:items-start lg:w-[20%]">
+          <div>
             <Image
-              src="/icon/linkedin.svg"
-              alt="linkedin"
-              width={30}
-              height={30}
-            />
-            <Image
-              src="/icon/instagram.svg"
-              alt="Instagram"
-              width={30}
-              height={30}
-            />
-            <Image
-              src="/icon/facebook.svg"
-              alt="Facebook"
-              width={30}
-              height={30}
+              src="/icon/logoFooter.svg"
+              alt="logo footer"
+              width={150}
+              height={150}
             />
           </div>
+          <div className="flex flex-col gap-2">
+            <p className="text-[14px] font-semibold text-[#717171]">
+              Olvídate de las filas y esperas
+            </p>
+            <p className="text-[14px]  text-[#717171]">
+              Dirección: 1452 Av. Manuel Fernández Juncos, San Juan, Puerto
+              Rico, 00909
+            </p>
+          </div>
+
+          <div>
+            <div className="flex flex-row gap-4 ">
+              <Image
+                src="/icon/linkedin.svg"
+                alt="linkedin"
+                width={30}
+                height={30}
+              />
+              <Image
+                src="/icon/instagram.svg"
+                alt="Instagram"
+                width={30}
+                height={30}
+              />
+              <Image
+                src="/icon/facebook.svg"
+                alt="Facebook"
+                width={30}
+                height={30}
+              />
+            </div>
+          </div>
         </div>
-      </div>
-      <div className="grid grid-cols-2 gap-4  md:flex md:flex-row md:gap-10  md:justify-center lg:flex lg:flex-row lg:gap-10 lg:w-[80%] lg:justify-center ">
-        
+        <div className="grid grid-cols-2 gap-4  md:flex md:flex-row md:gap-10  md:justify-center lg:flex lg:flex-row lg:gap-10 lg:w-[80%] lg:justify-center ">
           <div className="flex flex-col gap-3">
             <h3 className="text-[#11793d] text-[20px] font-bold">INICIO</h3>
             <a href="" className="text-[#717171] text-[14px]">
@@ -68,9 +67,7 @@ function Footer() {
               Términos y Condiciones
             </a>
           </div>
-        
 
-        
           <div className="flex flex-col gap-3">
             <h3 className="text-[#11793d] text-[20px] font-bold">
               ¿CÓMO FUNCIONA?
@@ -93,17 +90,14 @@ function Footer() {
             <a href="" className="text-[#717171] text-[14px]">
               (787) 710-7426
             </a>
-            
+
             <a href="" className="text-[#717171] text-[14px]">
               info@tulicenciapr.com
             </a>
           </div>
-        
+        </div>
       </div>
     </div>
-    
-    </div>
-    
   );
 }
 

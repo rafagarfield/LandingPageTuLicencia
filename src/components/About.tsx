@@ -1,24 +1,15 @@
 import Image from "next/image";
 import React from "react";
-
 function About() {
   return (
     <div className="mx-10 mt-10 mb-20   lg:flex lg:gap-32   ">
-      {/* <div className="flex justify-center ">
-        <Image
-          src="/icon/about.svg"
-          alt="hero"
-          className="w-full h-auto object-cover mx-auto"
-        />
-      </div> */}
-
       <div className="flex justify-center w-full lg:w-max">
         <Image
           src="/icon/about.svg"
           alt="hero"
-          width={0} // Esto es obligatorio pero se ignorará al usar style
-          height={0} // Esto también
-          style={{ width: "100%", height: "auto" }} // Aquí defines 100% del ancho y alto automático
+          width={0}
+          height={0}
+          style={{ width: "100%", height: "auto" }}
           className="object-cover lg:object-fill "
         />
       </div>

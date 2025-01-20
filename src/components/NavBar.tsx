@@ -3,7 +3,6 @@ import { useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
@@ -15,7 +14,10 @@ const Navbar = () => {
     <nav className="bg-[#11793D] fixed top-0 left-0 z-[9999] w-full overflow-hidden">
       <div className="container lg:max-w-screen-xl max-w-screen-xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-wrap items-center justify-between py-4">
-          <Link href="/" className="font-bold text-2xl lg:text-3xl degradado-texto">
+          <Link
+            href="/"
+            className="font-bold text-2xl lg:text-3xl degradado-texto"
+          >
             <Image src="/icon/logo.svg" alt="Logo" width={120} height={50} />
           </Link>
           <button
